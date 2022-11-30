@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Account" Collapsed="true">
+    <Position X="1.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACIgECAAQAAAIAiCAAAAACAAAgAAAAACgAAAEA=</HashCode>
+      <FileName>Account.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AccountHolder" Collapsed="true">
+    <Position X="4.5" Y="1.25" Width="1.5" />
+    <InheritanceLine Type="Person" FixedFromPoint="true">
+      <Path>
+        <Point X="3.25" Y="1.562" />
+        <Point X="4.5" Y="1.562" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>gAAQACAAAJAgQiAAAAAgCAEAAAgAQAAYAAACQAAAAAA=</HashCode>
+      <FileName>AccountHolder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bank" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BRAQAFABAAIkAAAAAJQICBAAEQAAAAAIAJIEAAAADJA=</HashCode>
+      <FileName>Bank.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CheckingAccount" Collapsed="true">
+    <Position X="3" Y="4" Width="1.5" />
+    <InheritanceLine Type="Account" FixedToPoint="true">
+      <Path>
+        <Point X="2.5" Y="3.062" />
+        <Point X="2.5" Y="3.625" />
+        <Point X="3.75" Y="3.625" />
+        <Point X="3.75" Y="4" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAaAAACAgEiAAAAAIAAgAAAAAAAAAAAAAAAACgAAAEA=</HashCode>
+      <FileName>CheckingAccount.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreditCard" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAACAAIAAAAAAAAQEAAAAAAAAAAAAAAAADAAAAAAA=</HashCode>
+      <FileName>CreditCard.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Employee" Collapsed="true">
+    <Position X="8.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAgACAAAAAAAAACAAAAAAAAgAACAAAAAA=</HashCode>
+      <FileName>Employee.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MasterCard" Collapsed="true">
+    <Position X="9" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAECAAAAIAAAAAAAAAEAAAAAAAEgAAABAAAAAAAAAAg=</HashCode>
+      <FileName>MasterCard.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Person" Collapsed="true">
+    <Position X="1.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EIBAAAwAYABwAAQBAAAIAAAAAAIAgAAAIAIECkAAAAA=</HashCode>
+      <FileName>Person.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SavingAccount" Collapsed="true">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAaAAACAgEgAgAAAIAAgACAAAAAAAAAAAAACCgEAAAA=</HashCode>
+      <FileName>SavingAccount.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VisaCard" Collapsed="true">
+    <Position X="6" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAACIAAAAAAAAAEAAAAAAAEgAAABAACAAAAAAAA=</HashCode>
+      <FileName>VisaCard.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
